@@ -13,7 +13,7 @@ from numpy.linalg import inv
 # 4*y + sin(z) + 3*x**2
 
 def create_jacobian_matrix():
-    jacobian_matrix = [[22.8, 21.8], [-21.8, 22.8]]
+    jacobian_matrix = [[48.3, 12.94], [12.94, 48.3]]
     return jacobian_matrix
 
 
