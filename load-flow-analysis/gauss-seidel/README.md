@@ -9,6 +9,8 @@ Here is how it works:
 2\. For each bus bar i, calculate new voltages using the below formula.
 3\. Repeat step 2 with the voltages calculated until the voltages stabilize.
 
+It is necessary to select one bus, called the slack bus or swing bus to provide the additional real and reactive power to supply the transmission losses, since these are unknown until the final solution is obtained. At this bus, the voltage magnitude and phase angle are specified as V = 1.0 and delta = 0 degrees.
+
 ## The mathematics behind Gauss Seidel method
 
 **i** = Individual bus bar number
